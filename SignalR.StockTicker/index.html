@@ -1,0 +1,795 @@
+﻿<!DOCTYPE html>
+<html>
+<!-- Mirrored from magnetto-html.weblionmedia.com/ by HTTrack Website Copier/3.x [XR&CO'2013], Thu, 26 Sep 2013 07:52:49 GMT -->
+<head>
+    <title>KaizenPlus</title>
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+    <!--[if lt IE 9]>-->
+    <script type="text/javascript" src="layout/plugins/html5.js"></script>
+    <!--[endif]-->
+    <link rel="stylesheet" href="layout/style.css" type="text/css">
+    <script type="text/javascript" src="layout/js/jquery.js"></script>
+
+    <script type="text/javascript" src="layout/js/plugins.js"></script>
+    <script type="text/javascript" src="layout/js/main.js"></script>
+    <script type="text/javascript" src="layout/js/ESP.js"></script>
+    <!-- Nofal -->
+    <style type="text/css">
+        .A-container {
+            /*position: relative;*/
+            height: 0;
+            padding-bottom: 50%; /* This should be changed to match the aspect ratio of your video */
+        }
+
+        .A {
+            position: absolute;
+            /*top: 0;
+            left: 0;*/
+            width: 89%;
+            height: 100%;
+        }
+
+        .SliderImagesDiv {
+            padding-top: 44%;
+        }
+    </style>
+
+
+    <script type="text/javascript">
+
+        function ResolveSliderStyles() {
+            hdnstyle.value = 1;
+            // Check if the site opened from desktop or not
+            if (!navigator.userAgent.match(/(iPhone|iPod|iPad|Android|BlackBerry|IEMobile)/)) {
+                $('#projects_slider_1').addClass('SliderImagesDiv');
+            }
+            else {
+
+                //For Iphone
+                if (navigator.userAgent.match(/(iPhone)/)) {
+                    $('.info').css('margin-top', 95);
+                    $('.A').css('height', 260);
+                    $('.A').css('width', 300);
+                }
+                else if (window.screen.width < 480) {
+                    //Small devices
+                    $('.info').css('margin-top', 65);
+                    $('.A').css('height', '154%');
+                }
+                else {
+                    // Big devices
+                    $('.info').css('margin-top', 200);
+                    $('.A').css('height', '150%');
+                }
+            }
+        }
+
+        function RemoveStyles() {
+            if (hdnstyle.value != 1) {
+                ResolveSliderStyles();
+            }
+
+            $('#projects_slider_1').removeClass('SliderImagesDiv');
+        }
+
+    </script>
+
+</head>
+<body>
+    <div class="wrapper">
+        <!-- HEADER BEGIN -->
+        <header>
+            <div id="header">
+                <div class="inner">
+                    <div id="logo_top"><a href="index.html"><img style="" src="images/logo_top.png" alt="Magnetto" title="Magnetto"></a></div>
+                    <div class="main_menu">
+                        <nav>
+                            <ul>
+                                <li class="current_page_item"><a href="#home">Home</a></li>
+                                <li><a href="#services">Services</a></li>
+                                <li><a href="#projects">Culture</a></li>
+                                <li><a href="#about">About us</a></li>
+                                <!-- <li><a href="shortcodes.html">Careers</a></li>
+                                <li><a href="#blog">Blog</a></li>-->
+                                <li><a href="#clients">Clients</a></li>
+                                <li><a href="#contacts">Contacts</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- HEADER END -->
+        <!-- CONTENT BEGIN -->
+        <div id="content" class="">
+            <section id="home" class="page">
+                <div class="block_main_slider general_not_loaded">
+                    <div id="main_slider" class="flexslider">
+                        <ul class="slides">
+                            <li class="slide_1">
+                                <div class="caption_1">
+                                    <div class="caption_1_1 animated_item" data-animation="bounceInDown" style="color:#58595b;">Welcome to Kaizen Plus<span style="position:relative;top:-10px;font-size:24px">&reg;</span></div>
+                                    <div class="caption_1_2 animated_item" data-animation="fadeInUp">We are a team of developers & consultants in love with IT. Every day we create amazing things and make this world more beautiful!</div>
+                                    <!--<div class="caption_1_3 animated_item" data-animation="bounceInUp"><a href="#" class="general_button type_3">View our works</a><a href="#" class="general_button type_4">More about Us</a></div>-->
+                                </div>
+                            </li>
+                            <li class="slide_2">
+                                <div class="caption_2">
+                                    <div class="caption_2_1" style="margin-top:-15px;">Kaizen Plus<span style="position:relative;top:-10px;font-size:20px">&reg;</span> provide Web & Mobile Development, Consultancy &amp; process improvement to help companies build awesome Apps </div>
+                                    <br>
+                                    <br>
+                                    <br>
+                                    <div class="caption_2_2 counter">
+                                        <ul>
+                                            <li class="animated_item" data-animation="fadeInRight">
+                                                <div class="num" data-num="4" data-content="4">0</div>
+                                                <div class="type">years in web</div>
+                                            </li>
+                                            <li class="animated_item" data-animation="fadeInRight">
+                                                <div class="num" data-num="13" data-content="13">0</div>
+                                                <div class="type">projects made</div>
+                                            </li>
+                                            <li class="animated_item" data-animation="fadeInRight">
+                                                <div class="num" data-num="7" data-content="7">0</div>
+                                                <div class="type">happy clients</div>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="slide_3">
+                                <div class="caption_3">
+                                    <div class="caption_3_1 animated_item" data-animation="zoomIn"><img src="images/pic_slider_1_3.png" alt=""></div>
+                                    <div class="caption_3_2 animated_item" data-animation="fadeInUp">Kaizen Plus<span style="position:relative;top:-5px;font-size:14px">&reg;</span> Software </div>
+                                    <div class="caption_3_3 animated_item" data-animation="fadeInUp">Perfect software for your business! Formula for success: rise early, work hard, get success.</div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <script type="text/javascript">
+                        jQuery(function () {
+                            init_main_slider('#main_slider');
+                        });
+                    </script>
+                    <div class="lnk"> <a href="#about" class="lnk_scroll" style="color:#0093cf;">Who We Are?</a> </div>
+                </div>
+            </section>
+            <section id="services" class="page">
+                <div class="inside">
+                    <div class="inner">
+                        <div class="block_title scroll_animated_item" data-scroll-animation="fadeIn">
+                            <h1>We develop Web, Mobile Applications, UX/UI, Custom Software, SharePoint applications and more ... </h1>
+                            <h2>
+                                <b>Kaizen Plus<span style="position:relative;top:-5px;font-size:14px">&reg;</span> </b> combines its business expertise along with the experience of industry consultants and top end software experts to provide companies with softwares focused on resolving today’s business challenges in a way to let them easily move forward.
+
+                                While our portfolio of services seems well thought out and covers multi lines of businesses, we continue to expand our profile to tailor the emerging needs of our clients.
+                            </h2>
+                        </div>
+                        <div id="services_1" class="block_services_1">
+                            <div class="service scroll_animated_item type_1" data-scroll-animation="fadeInDownBig">
+                                <div class="content">
+                                    <h3><b>Web</b> Development</h3>
+                                    <p>We are experienced in creation of failure-free custom web apps, that are able to operate under high traffic loads and process a great amount of data.</p>
+                                </div>
+                            </div>
+                            <div class="service scroll_animated_item type_3" data-scroll-animation="fadeInDownBig">
+                                <div class="content">
+                                    <h3><b>Mobile</b> Apps Development</h3>
+                                    <p>We provide mobile application development on all leading mobile platforms including Android, IOS, Windows Phone and BlackBerry.</p>
+                                </div>
+                            </div>
+                            <div class="service scroll_animated_item type_6" data-scroll-animation="fadeInDownBig">
+                                <div class="content">
+                                    <h3><b>Outsourcing </b> Services</h3>
+                                    <p>Our IT outsourcing model is designed to provide resource to augment your business that allows you to concentrate on your business without worrying about ongoing IT issues.</p>
+                                </div>
+                            </div>
+                            <div class="service scroll_animated_item type_4" data-scroll-animation="fadeInDownBig">
+                                <div class="content">
+                                    <h3><b>SharePoint</b> Solutions</h3>
+                                    <p>We utilize the latest technologies of Microsoft Office SharePoint to develop, design, and operate collaborative environment and portals.</p>
+                                </div>
+                            </div>
+                            <div class="service scroll_animated_item type_7" data-scroll-animation="fadeInDownBig">
+                                <div class="content">
+                                    <h3><b>Consulting </b> Services</h3>
+                                    <p>Kaizen Plus<span style="position:relative;top:-5px;font-size:14px">&reg;</span> consulting services & process improvement examines your current business operations to ensure that every activity provides tangible value.</p>
+                                </div>
+                            </div>
+                            <div class="service scroll_animated_item type_2" data-scroll-animation="fadeInDownBig">
+                                <div class="content">
+                                    <h3><b>Content </b> Management System</h3>
+                                    <p>We provide the right web content management system to meet your organization’s unique needs—on premise or in the cloud.</p>
+                                </div>
+                            </div>
+                            <div class="service scroll_animated_item type_5" data-scroll-animation="fadeInDownBig">
+                                <div class="content">
+                                    <h3><b>eCommerce </b> Solutions</h3>
+                                    <p>Simply choose a stylish eCommerce website design, easily customize your online store, add products, and you're pretty much ready to accept payments.</p>
+                                </div>
+                            </div>
+                            <div class="clearboth"></div>
+                        </div>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <div class="block_parallax_caption_2">
+                            <div class="slider scroll_animated_item" style="background:none;" data-scroll-animation="fadeIn">
+                                <div class="project_undone"><img src="images/pic_project_undone.jpg" alt=""></div>
+                                <div class="project_done"><img src="images/pic_project_done.jpg" alt=""></div>
+                                <div class="handler"></div>
+                            </div>
+                            <div class="texts">
+                                <div class="caption_1 scroll_animated_item" data-scroll-animation="fadeInRight">
+                                    <div class="text"><b>Beyond</b> Smart</div>
+                                </div>
+                                <div class="caption_2 scroll_animated_item" data-scroll-animation="fadeInRight">
+                                    <div class="text"><b>Unique Creative</b> design</div>
+                                </div>
+                                <div class="caption_3 scroll_animated_item" data-scroll-animation="fadeInRight">
+                                    <div class="text"><b>User</b> Oriented</div>
+                                </div>
+                                <div class="caption_4 scroll_animated_item" data-scroll-animation="fadeIn">
+                                    <div class="text"><b>Responsive</b> Layout</div>
+                                </div>
+                                <div class="caption_5 scroll_animated_item" data-scroll-animation="fadeIn">
+                                    <div class="text"><b>Powerful</b> , simple, and beautiful</div>
+                                </div>
+                                <div class="caption_6 scroll_animated_item" data-scroll-animation="fadeIn">
+                                    <div class="text"><b>Location</b> based servics</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="parallax_1">
+                <div class="inside">
+                    <div class="inner">
+                        <div class="block_parallax_caption_1">
+                            <div class="text_1 scroll_animated_item" data-scroll-animation="fadeInDown"><span style="height:110px;text-align:right">"Life can only be understood backwards, but it must be lived forwards&nbsp;<img src="images/FORWARD.png" width="35px" style="position:relative;top:7px;" />,<span style="font-style:italic;font-size:16px;">Soren Kierkegaard</span>"</span></div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="projects" class="page">
+                <div class="inside scroll_animated_item" data-scroll-animation="fadeIn">
+                    <div class="inner">
+                        <div class="block_title">
+                            <h1><b>WORK HARD. HAVE FUN. GIVE BACK</b> ... IS OUR CULTURE</h1>
+                            <h2>
+                                <li style="font-size:17px;"><b>We work hard.</b> Kizeners live, and breathe code. And we don’t just make and sell Software, we use it. Every day. To collaborate, ideate, imagine, argue, rescue, solve, and create.</li>
+                                <br>
+                                <li style="font-size:17px;"><b>We have fun.</b> We don’t take ourselves too seriously. And we like to celebrate. There’s always a happy hour, movie night, shaddeh time, babyfoot competitions, or outside trips to take our minds off work, then we’ll come back fully energetic and passionate.</li>
+                                <br>
+                                <li style="font-size:17px;"><b>We give back.</b> Through real flexible environment, working vacation days, medical insurance coverage (on premise, offshore). In addition to the financial incentives like profit share and bonuses.</li>
+                                <br>
+                        </div>
+                    </div>
+                    <div id="project_item" class="block_project_item type_1">
+                        <div class="inner"> </div>
+                    </div>
+                    <div class="inner">
+                        <div class="block_projects_slider_1 projects_container general_not_loaded">
+                            <!-- I Remove flexslider class to solve dubi image slider-->
+                            <!-- Nofal -->
+                            <!--<div id="projects_slider_1" class="flexslider">-->
+
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="parallax_2">
+                <div class="inside">
+                    <div class="inner">
+                        <div class="block_parallax_caption_1">
+                            <div class="text_1 scroll_animated_item" data-scroll-animation="fadeInDown"><span style="height:90px;text-align:right">"If everyone is moving forward together, then success takes care of itself, <span style="font-style:italic;font-size:16px;">Henry Ford</span>"</span></div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="about" class="page">
+                <div class="inside">
+                    <div class="inner">
+                        <div class="block_title scroll_animated_item" data-scroll-animation="fadeIn">
+                            <h1>
+                                <b>About</b> Our Company<br>
+                                Development is our lifestyle.
+                            </h1>
+                            <h2>
+                                <!--<b>Kaizen Plus <span style="position:relative;top:-5px;font-size:14px" >&reg;</span> </b> combines its business expertise along with the experience of industry consultants and top end solution experts to provide companies with solutions focused on resolving today’s business challenges, We specialized in the development of custom software applications, Mobile Applications, Web Applications ,Microsoft SharePoint Applications and eCommerce Solutions.<br>
+                                <br>-->
+                                Our quality rectangle is constructed of Business Needs, Usability and based on System Architecture; the already existing remarkable interface, is merely the façade that gives efficiency a suitable layout.<br>
+                                <br>
+                                Technical knowledge and capabilities are variously offered in the MENA market as well as world wide, however those who excel are the ones who incorporate R&D, along with thriving to solve and serve in the optimal methodology.
+                            </h2>
+                        </div>
+                        <div class="block_stats">
+                            <ul>
+                                <li class="scroll_animated_item" data-scroll-animation="fadeInRight">
+                                    <div class="num" data-num="4" data-content="4">0</div>
+                                    <div class="type">years in web</div>
+                                </li>
+                                <li class="scroll_animated_item" data-scroll-animation="fadeInRight">
+                                    <div class="num" data-num="13" data-content="13">0</div>
+                                    <div class="type">projects made</div>
+                                </li>
+                                <li class="scroll_animated_item" data-scroll-animation="fadeInRight">
+                                    <div class="num" data-num="7" data-content="7">0</div>
+                                    <div class="type">happy clients</div>
+                                </li>
+                                <li class="scroll_animated_item" data-scroll-animation="fadeInRight">
+                                    <div class="num" data-num="138" data-content="138K">0</div>
+                                    <div class="type">work hours</div>
+                                </li>
+                                <li class="scroll_animated_item" data-scroll-animation="fadeInRight">
+                                    <div class="num" data-num="26" data-content="26K">0</div>
+                                    <div class="type">cups of coffee</div>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="block_skills scroll_animated_item" data-scroll-animation="fadeIn">
+                            <h2>Our Skills</h2>
+                            <div class="skill">
+                                <p><b>Web</b> Development</p>
+                                <div class="level_rail" data-level="85">
+                                    <div class="level">
+                                        <div class="bar"></div>
+                                        <div class="marker"></div>
+                                        <div class="note"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="skill">
+                                <p><b>Mobile</b> Applications</p>
+                                <div class="level_rail" data-level="90">
+                                    <div class="level">
+                                        <div class="bar"></div>
+                                        <div class="marker"></div>
+                                        <div class="note"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="skill">
+                                <p><b>Consulting</b> Services</p>
+                                <div class="level_rail" data-level="85">
+                                    <div class="level">
+                                        <div class="bar"></div>
+                                        <div class="marker"></div>
+                                        <div class="note"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="skill">
+                                <p><b>UX/UI</b></p>
+                                <div class="level_rail" data-level="90">
+                                    <div class="level">
+                                        <div class="bar"></div>
+                                        <div class="marker"></div>
+                                        <div class="note"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="skill">
+                                <p><b>SharePoint</b> Solutions</p>
+                                <div class="level_rail" data-level="80">
+                                    <div class="level">
+                                        <div class="bar"></div>
+                                        <div class="marker"></div>
+                                        <div class="note"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="skill">
+                                <p><b>Content </b> Management System</p>
+                                <div class="level_rail" data-level="90">
+                                    <div class="level">
+                                        <div class="bar"></div>
+                                        <div class="marker"></div>
+                                        <div class="note"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="skill">
+                                <p><b>eCommerce</b> Solutions</p>
+                                <div class="level_rail" data-level="80">
+                                    <div class="level">
+                                        <div class="bar"></div>
+                                        <div class="marker"></div>
+                                        <div class="note"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--<div class="block_team scroll_animated_item" data-scroll-animation="fadeIn">
+                          <h2>Our Team</h2>
+                          <div class="teammates">
+                            <div id="team_slider_1" class="flexslider">
+                              <ul class="slides">
+                                <li>
+                                  <div class="teammate">
+                                    <div class="photo"> <img src="images/pic_teammate_3.jpg" alt="">
+                                      <div class="hover">
+                                        <div class="button"><a href="mailto:#" target="_blank" class="general_button type_2">Send <span>message</span></a></div>
+                                      </div>
+                                    </div>
+                                    <div class="description">
+                                      <div class="name">Amer AlGhul</div>
+                                      <div class="position">Partner</div>
+                                      <div class="bio">
+                                        <p>blah blah .</p>
+                                      </div>
+                                      <div class="social">
+                                        <ul class="general_social_1">
+                                          <li><a href="#" class="social_1">Facebook</a></li>
+                                          <li><a href="#" class="social_2">Twitter</a></li>
+                                          <li><a href="#" class="social_6">Dribble</a></li>
+                                          <li><a href="#" class="social_3">Google Plus</a></li>
+                                        </ul>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </li>
+                                <li>
+                                  <div class="teammate">
+                                    <div class="photo"> <img src="images/pic_teammate_1.jpg" alt="">
+                                      <div class="hover">
+                                        <div class="button"><a href="mailto:#" target="_blank" class="general_button type_2">Send <span>message</span></a></div>
+                                      </div>
+                                    </div>
+                                    <div class="description">
+                                      <div class="name">Rateb Sallal</div>
+                                      <div class="position">Director</div>
+                                      <div class="bio">
+                                        <p>blah blah .</p>
+                                      </div>
+                                      <div class="social">
+                                        <ul class="general_social_1">
+                                          <li><a href="#" class="social_1">Facebook</a></li>
+                                          <li><a href="#" class="social_2">Twitter</a></li>
+                                          <li><a href="#" class="social_6">Dribble</a></li>
+                                          <li><a href="#" class="social_3">Google Plus</a></li>
+                                        </ul>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </li>
+                                <li>
+                                  <div class="teammate">
+                                    <div class="photo"> <img src="images/pic_teammate_2.jpg" alt="">
+                                      <div class="hover">
+                                        <div class="button"><a href="mailto:#" target="_blank" class="general_button type_2">Send <span>message</span></a></div>
+                                      </div>
+                                    </div>
+                                    <div class="description">
+                                      <div class="name">Raed Malak</div>
+                                      <div class="position">CTO</div>
+                                      <div class="bio">
+                                        <p>blah blah .</p>
+                                      </div>
+                                      <div class="social">
+                                        <ul class="general_social_1">
+                                          <li><a href="#" class="social_1">Facebook</a></li>
+                                          <li><a href="#" class="social_2">Twitter</a></li>
+                                          <li><a href="#" class="social_6">Dribble</a></li>
+                                          <li><a href="#" class="social_3">Google Plus</a></li>
+                                        </ul>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </li>
+                              </ul>
+                            </div>
+                            <div class="shadow_1"></div>
+                            <div class="shadow_2"></div>
+                            <script type="text/javascript">
+                                                  jQuery(function() {
+                                                      init_team_slider_1('#team_slider_1');
+                                                  });
+                                              </script>
+                          </div>
+                        </div>-->
+                    </div>
+                </div>
+            </section>
+            <section id="parallax_3">
+                <div class="inside">
+                    <div class="inner">
+                        <div class="block_parallax_caption_3">
+                            <div class="text_1 scroll_animated_item" data-scroll-animation="fadeInRight"><span style="height:160px">"Technology is nothing. What's important is faith in people, that they're basically smart, and if you give them tools, they'll do wonderful things, <span style="font-size:16px;font-style:italic;">Steve Jobs </span>"</span></div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!--<section id="blog" class="page">
+              <div class="inside scroll_animated_item" data-scroll-animation="fadeIn">
+                <div class="inner">
+                  <div class="block_title">
+                    <h1><b>Blog</b> Posts</h1>
+                  </div>
+                  <div class="block_blog">
+                    <div class="posts">
+                      <article>
+                        <div class="content">
+                          <div class="featured_content"><a href="blog_post.html"><img src="images/pic_blog_1_1.jpg" alt=""></a></div>
+                          <div class="description">
+                            <h3><a href="blog_post.html">Perspiciatis unde omnis iste natus sit voluptatem.</a></h3>
+                            <div class="info">June 14,2013<span>/</span>7 comments</div>
+                            <div class="text">
+                              <p>Perspiciatis unde omnis iste natus sit voluptatem accusantium doloremque laudantium, totam rem aperiam.perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.</p>
+                            </div>
+                            <div class="button"><a href="blog_post.html" class="general_button type_5">Read more</a></div>
+                          </div>
+                        </div>
+                      </article>
+                      <article>
+                        <div class="content">
+                          <div class="featured_content"><a href="blog_post.html"><img src="images/pic_blog_1_2.jpg" alt=""></a></div>
+                          <div class="description">
+                            <h3><a href="blog_post.html">Unde omnis iste natus sit.</a></h3>
+                            <div class="info">June 14,2013<span>/</span>3 comments</div>
+                            <div class="text">
+                              <p>Omnis iste natus sit voluptatem accusantium doloremque laudantium, totam rem aperiam.perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque.</p>
+                            </div>
+                            <div class="button"><a href="blog_post.html" class="general_button type_5">Read more</a></div>
+                          </div>
+                        </div>
+                      </article>
+                      <article class="w_icon qoute">
+                        <div class="content"> <a href="#" class="description"> <span class="text">Class aptent taciti sociosqu litora torquent per ostra, per inceptos himenaeos.</span> <span class="subtext">Stiven Freeman</span> <span class="icon"></span> </a> </div>
+                      </article>
+                      <article>
+                        <div class="content">
+                          <div class="featured_content"><a href="blog_post.html"><img src="images/pic_blog_1_3.jpg" alt=""></a></div>
+                          <div class="description">
+                            <h3><a href="blog_post.html">Quae ab illo inventore veritatis et quasi architecto beatae.</a></h3>
+                            <div class="info">June 14,2013<span>/</span>7 comments</div>
+                            <div class="text">
+                              <p>Perspiciatis unde omnis iste natus sit voluptatem accusantium doloremque laudantium, totam rem aperiam.perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+                            </div>
+                            <div class="button"><a href="blog_post.html" class="general_button type_5">Read more</a></div>
+                          </div>
+                        </div>
+                      </article>
+                      <article>
+                        <div class="content">
+                          <div class="featured_content">
+                            <div class="block_audio">
+                              <audio id="audio_player_1">
+                                <source src="http://lil.org.ua/demo_sound/01_big_bang_theory_theme.ogg" type="audio/ogg">
+                                <source src="http://lil.org.ua/demo_sound/01_big_bang_theory_theme.mp3" type="audio/mp3">
+                              </audio>
+                            </div>
+                          </div>
+                          <div class="description">
+                            <h3><a href="blog_post.html">Audio Post Format</a></h3>
+                            <div class="info">June 14,2013<span>/</span>7 comments</div>
+                            <div class="text">
+                              <p>Perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque.</p>
+                            </div>
+                            <div class="button"><a href="blog_post.html" class="general_button type_5">Read more</a></div>
+                          </div>
+                        </div>
+                      </article>
+                      <article>
+                        <div class="content">
+                          <div class="featured_content">
+                            <div class="slider">
+                              <div id="blog_slider_1" class="flexslider">
+                                <ul class="slides">
+                                  <li><img src="images/pic_blog_1_4.jpg" alt=""></li>
+                                  <li><img src="images/pic_blog_1_3.jpg" alt=""></li>
+                                  <li><img src="images/pic_blog_1_2.jpg" alt=""></li>
+                                  <li><img src="images/pic_blog_1_1.jpg" alt=""></li>
+                                </ul>
+                              </div>
+                              <script type="text/javascript">
+                                                            jQuery(function() {
+                                                                jQuery('#blog_slider_1').flexslider({
+                                                                    animation : 'slide',
+                                                                    controlNav : false,
+                                                                    directionNav : true,
+                                                                    animationLoop : true,
+                                                                    slideshow : false,
+                                                                    useCSS : true
+                                                                });
+                                                            });
+                                                        </script>
+                            </div>
+                          </div>
+                          <div class="description">
+                            <h3><a href="blog_post.html">Nemo enim ipsam voluptatem quia voluptas sit aspern.</a></h3>
+                            <div class="info">June 14,2013<span>/</span>7 comments</div>
+                            <div class="text">
+                              <p>Omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque.</p>
+                            </div>
+                            <div class="button"><a href="blog_post.html" class="general_button type_5">Read more</a></div>
+                          </div>
+                        </div>
+                      </article>
+                      <article class="w_icon lnk">
+                        <div class="content"> <a href="#" class="description"> <span class="text">Purchace out theme on the ThemeForest</span> <span class="subtext">www.themeforest.net</span> <span class="icon"></span> </a> </div>
+                      </article>
+                      <article>
+                        <div class="content">
+                          <div class="description">
+                            <h3><a href="blog_post.html">Perspiciatis unde omnis iste natus sit voluptatem.</a></h3>
+                            <div class="info">June 14,2013<span>/</span>7 comments</div>
+                            <div class="text">
+                              <p>Perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae</p>
+                            </div>
+                            <div class="button"><a href="blog_post.html" class="general_button type_5">Read more</a></div>
+                          </div>
+                        </div>
+                      </article>
+                    </div>
+                    <div class="control"> <a href="#" id="view_more_button" class="general_button type_6" data-target=".block_blog .posts"><span>View older</span> posts</a> </div>
+                  </div>
+                </div>
+              </div>
+            </section>-->
+            <section id="clients">
+                <div class="inside">
+                    <div class="inner">
+                        <div class="block_title scroll_animated_item" data-scroll-animation="fadeIn">
+                            <h1>
+                                <b>We</b> worked for 7
+                                Companies
+                            </h1>
+                        </div>
+                        <div class="block_clients" style="1400px">
+                            <ul>
+                                <li class="scroll_animated_item" data-scroll-animation="bounceInDown"><a href="#"><img width="110px" src="images/pic_client_1.jpg" alt=""></a></li>
+                                <li class="scroll_animated_item" data-scroll-animation="bounceInDown"><a href="#"><img width="110px" src="images/pic_client_2.jpg" alt=""></a></li>
+                                <li class="scroll_animated_item" data-scroll-animation="bounceInDown"><a href="#"><img width="110px" src="images/pic_client_3.jpg" alt=""></a></li>
+                                <li class="scroll_animated_item" data-scroll-animation="bounceInDown"><a href="#"><img width="110px" src="images/pic_client_4.jpg" alt=""></a></li>
+                                <li class="scroll_animated_item" data-scroll-animation="bounceInDown"><a href="#"><img width="110px" src="images/pic_client_5.jpg" alt=""></a></li>
+                                <li class="scroll_animated_item" data-scroll-animation="bounceInDown"><a href="#"><img width="110px" src="images/pic_client_6.jpg" alt=""></a></li>
+                                <li class="scroll_animated_item" data-scroll-animation="bounceInDown"><a href="#"><img width="110px" src="images/pic_client_7.jpg" alt=""></a></li>
+                            </ul>
+                            <!--   <table align="center" style="padding-left:40px;" cellpadding="10" cellspacing="10" >
+                              <tr>
+                                <td valign="baseline" align="center" style="padding-right:30px" ><li class="scroll_animated_item" data-scroll-animation="bounceInDown"><a href="#"><img width="110px" src="images/pic_client_1.jpg" alt="" /></a></li></td>
+                                <td valign="baseline" align="center" style="padding-right:30px" ><li class="scroll_animated_item" data-scroll-animation="bounceInDown"><a href="#"><img width="110px" src="images/pic_client_2.png" alt="" /></a></li></td>
+                                <td valign="baseline" align="center" style="padding-right:30px" ><li class="scroll_animated_item" data-scroll-animation="bounceInDown"><a href="#"><img width="110px" src="images/pic_client_3.png" alt="" /></a></li></td>
+                                <td valign="baseline" align="center" style="padding-right:30px" ><li class="scroll_animated_item" data-scroll-animation="bounceInDown"><a href="#"><img width="110px" src="images/pic_client_4.jpg" alt="" /></a></li></td>
+                                <td valign="baseline" align="center" style="padding-right:30px" ><li class="scroll_animated_item" data-scroll-animation="bounceInDown"><a href="#"><img width="110px" src="images/pic_client_5.jpg" alt="" /></a></li></td>
+                                <td valign="baseline" align="center" style="padding-right:30px" ><li class="scroll_animated_item" data-scroll-animation="bounceInDown"><a href="#"><img width="110px" src="images/pic_client_6.jpg" alt="" /></a></li></td>
+                                <td valign="baseline" align="center" style="padding-right:30px" ><li class="scroll_animated_item" data-scroll-animation="bounceInDown"><a href="#"><img width="110px" src="images/pic_client_7.jpg" alt="" /></a></li></td>
+                              </tr>
+                            </table>-->
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="contacts">
+                <div class="inside">
+                    <div class="block_contacts_button"><a href="#" id="view_map" class="general_button type_3">View Map</a><a href="#" id="view_contacts" class="general_button type_4">View <span>contacts</span></a></div>
+                    <div class="block_contacts">
+                        <div class="inner">
+                            <div class="column">
+                                <div class="info">
+                                    <h2 id="map_locations"><a href="#" class="current" data-address="Amman, Jordan" data-name="Office in Jordan">Jordan</a><span>/</span><a href="#" data-address="Al Ghaith Tower, Hamdan Bin Mohammed St, Abu Dhabi, UAE" data-name="Office in UAE">UAE</a><span></span> </h2>
+                                    <div class="location">
+                                        <div class="addresses">
+                                            <div class="current">
+                                                <h3>Kaizen Plus Head Office</h3>
+                                                <p><b>Address:</b> 9543 Gate Way Commercial Complex, Al Wakalat St 11/ Amman, Jordan</p>
+                                                <p><b>Telephone:</b> +962 6 5811390 / Fax: +962 6 5811391 </p>
+                                                <p><b>Email:</b> <a href="mailto:#">info@kaizenplus.com</a></p>
+                                                <p><b>To apply:</b> <a href="mailto:#">hr@kaizenplus.com</a></p>
+                                                <!--<p><b>Skype:</b> kaizenplus</p>-->
+                                            </div>
+                                            <div>
+                                                <h3>UAE Office</h3>
+                                                <p><b>Address:</b> Abu Dhabi, Hamdan Street, 19th floor, Al Gaith Tower</p>
+                                                <p><b>Telephone:</b> +971 2 5089001</p>
+                                                <p><b>Fax:</b> +971 2 5089003</p>
+                                                <p><b>Email:</b> <a href="mailto:#">rsallal@kaizenplus.com</a></p>
+                                                <!--<p><b>Skype:</b> kaizenplus</p>-->
+                                            </div>
+                                        </div>
+                                        <div class="social">
+                                            <ul class="general_social_2">
+                                                <li><a target="_blank" href="https://twitter.com/kaizen_plus" class="social_1">Twitter</a></li>
+                                                <li><a target="_blank" href="https://www.facebook.com/kaizenplus" class="social_2">Facebook</a></li>
+                                                <li><a target="_blank" href="https://plus.google.com/107037188434918006250/about" class="social_4">Google Plus</a></li>
+                                                <!-- <li><a href="https://www.linkedin.com/company/kaizen-plus" class="social_4">LinkedIn</a></li> -->
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="column">
+                                <div class="form">
+                                    <h2>Contact Form</h2>
+                                    <form action="#">
+                                        <div class="fields_wrapper">
+                                            <div class="field_column">
+                                                <p class="label" style="font-weight:normal;"><b>Your Name</b> (required)</p>
+                                                <div class="field">
+                                                    <input type="text" class="w_focus_mark">
+                                                </div>
+                                            </div>
+                                            <div class="field_column">
+                                                <p class="label" style="font-weight:normal;"><b>Email</b> (required)</p>
+                                                <div class="field">
+                                                    <input type="text" class="w_focus_mark">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <p class="label" style="font-weight:normal;"><b>Message</b> (required)</p>
+                                        <div class="textarea">
+                                            <textarea cols="1" rows="1" class="w_focus_mark"></textarea>
+                                        </div>
+                                        <div class="button"><a href="#" class="general_button type_4">Send message</a></div>
+                                    </form>
+                                </div>
+                            </div>
+                            <div class="clearboth"></div>
+                        </div>
+                    </div>
+                    <div class="block_map">
+                        <div id="map"></div>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <!-- CONTENT END -->
+        <!-- FOOTER BEGIN -->
+        <footer>
+            <div id="footer">
+                <div class="inner">
+                    <div class="block_copyrights">&copy; <span id="spanCurrentYear"></span> All Rights Reserved, designed by  Kaizen Plus<span style="position:relative;top:-5px;font-size:14px">&reg;</span> </div>
+                    <div class="block_button_up"><a href="#" id="button_up">UP</a></div>
+                    <div class="clearboth"></div>
+                </div>
+            </div>
+        </footer>
+        <!-- FOOTER END -->
+    </div>
+    <input id="hdnstyle" type="hidden" value="0" />
+</body>
+<!-- Mirrored from magnetto-html.weblionmedia.com/ by HTTrack Website Copier/3.x [XR&CO'2013], Thu, 26 Sep 2013 08:06:14 GMT -->
+<!-- Nofal-->
+<script type="text/javascript">
+
+    $(document).ready(function () {
+
+        if (navigator.userAgent.match(/(iPhone|iPod|iPad|Android|BlackBerry|IEMobile)/)) {
+            {
+                //to handle next and previous buttons in events image slider
+                $('.flex-direction-nav').css('position', 'relative');
+
+                //check if there any need to make the next & previous buttos appear or not
+                if (parseInt($('div[class="image"]').width() * 2) < parseInt(window.screen.width)) {
+                    $('.flex-direction-nav').css('display', 'none');
+                }
+
+                //remove next and previous buttons in the first image slider
+                $('#main_slider > ul[class="flex-direction-nav"] li').css('display', 'none');
+            }
+        }
+    });
+
+    var today = new Date();
+    var currentYear = today.getFullYear();
+
+    var spanCurrentYear = document.getElementById('spanCurrentYear');
+    spanCurrentYear.innerHTML = currentYear;
+
+</script>
+<style type="text/css">
+    #mCSB_1 {
+        height: 220px !important;
+    }
+</style>
+</html>
